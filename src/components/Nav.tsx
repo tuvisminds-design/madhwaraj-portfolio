@@ -16,9 +16,9 @@ export function Nav() {
         <Link href="/" className="flex items-center gap-3">
           <span className="relative h-10 w-10 shrink-0 overflow-hidden rounded-full bg-cream ring-1 ring-line">
             <img
-              src={site.memoji}
+              src={site.photo}
               alt={site.name}
-              className="h-full w-full origin-center scale-[1.35] object-cover object-[center_22%]"
+              className="h-full w-full object-cover object-[center_18%]"
             />
           </span>
           <span className="hidden text-sm tracking-tight sm:block">
