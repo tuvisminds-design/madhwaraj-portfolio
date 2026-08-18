@@ -15,7 +15,6 @@ export function Nav() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
         <Link href="/" className="flex items-center gap-3">
           <span className="relative h-10 w-10 shrink-0 overflow-hidden rounded-full bg-cream ring-1 ring-line">
-            {/* Native img so the small circle is not broken by image optimization. */}
             <img
               src={site.memoji}
               alt={site.name}
