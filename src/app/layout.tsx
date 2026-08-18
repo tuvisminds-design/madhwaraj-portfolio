@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: site.headline,
     type: "website",
     locale: "en_IN",
-    images: [{ url: "/profile.png", alt: site.name }],
+    images: [{ url: "/memoji.png", alt: site.name }],
   },
 };
 

@@ -10,12 +10,12 @@ export function Hero() {
       <aside className="flex flex-col gap-6 lg:max-w-sm">
         <div className="overflow-hidden rounded-[28px] border border-line bg-cream">
           <Image
-            src={site.photo}
-            alt={`${site.name}, Business Analyst`}
-            width={720}
-            height={900}
+            src={site.memoji}
+            alt={`${site.name} Memoji`}
+            width={819}
+            height={1024}
             priority
-            className="aspect-[4/5] w-full object-cover object-[center_18%]"
+            className="aspect-[4/5] h-auto w-full object-cover object-center"
           />
         </div>
       </aside>

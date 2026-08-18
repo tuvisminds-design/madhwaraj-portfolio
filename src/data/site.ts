@@ -9,7 +9,7 @@ export const site = {
   medium: "https://medium.com/@kulkarni.madhwaraj",
   drive: "https://drive.google.com/drive/folders/1XtlCmWl_YmXhqNf6ZkKpoZXRm5OqUls9",
   resume: "/Resume/Madhwaraj_Kulkarni_Resume.docx",
-  photo: "/profile.png",
+  memoji: "/memoji.png",
   headline: "I turn messy operational workflows into product-ready requirements.",
   subhead:
     "Business Analyst at VIT Infotech, moving into AI Product Management. I map as-is processes, write user stories, and design chatbot and automation journeys that teams can actually build.",

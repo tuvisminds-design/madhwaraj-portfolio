@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { EmailLink } from "@/components/EmailLink";
@@ -15,13 +14,14 @@ export function Nav() {
     <header className="sticky top-0 z-40 border-b border-line/80 bg-paper/85 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
         <Link href="/" className="flex items-center gap-3">
-          <Image
-            src={site.photo}
-            alt={site.name}
-            width={36}
-            height={36}
-            className="h-9 w-9 rounded-full object-cover object-[center_18%] ring-1 ring-line"
-          />
+          <span className="relative h-10 w-10 shrink-0 overflow-hidden rounded-full bg-cream ring-1 ring-line">
+            {/* Native img so the small circle is not broken by image optimization. */}
+            <img
+              src={site.memoji}
+              alt={site.name}
+              className="h-full w-full origin-center scale-[1.35] object-cover object-[center_22%]"
+            />
+          </span>
           <span className="hidden text-sm tracking-tight sm:block">
             {site.name}
           </span>
