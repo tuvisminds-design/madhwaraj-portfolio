@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #080807;
+  --paper-2: #10100e;
+  --ink: #f3eee4;
+  --muted: #a39b91;
+  --line: #2c2925;
+  --forest: #8fbfa4;
+  --forest-2: #a8d4bc;
+  --rust: #e07a48;
+  --cream: #121110;
+  --stamp: #14201a;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-forest: var(--forest);
+  --color-forest-2: var(--forest-2);
+  --color-rust: var(--rust);
+  --color-cream: var(--cream);
+  --color-stamp: var(--stamp);
+  --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-instrument);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background: #2a4a3c;
+  color: var(--ink);
+}
+
+.grain {
+  position: relative;
+}
+
+.grain::before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  opacity: 0.09;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.rule {
+  height: 1px;
+  background: var(--line);
+}
