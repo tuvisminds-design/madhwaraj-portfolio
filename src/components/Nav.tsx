@@ -6,6 +6,7 @@ import { EmailLink } from "@/components/EmailLink";
 import { LinkedInProfileLink } from "@/components/LinkedInProfileLink";
 import { MediumLink } from "@/components/MediumLink";
 import { site } from "@/data/site";
+import { publicPath } from "@/lib/public-path";
 
 export function Nav() {
   const [open, setOpen] = useState(false);
@@ -16,7 +17,7 @@ export function Nav() {
         <Link href="/" className="flex items-center gap-3">
           <span className="relative h-10 w-10 shrink-0 overflow-hidden rounded-full bg-cream ring-1 ring-line">
             <img
-              src={site.photo}
+              src={publicPath(site.photo)}
               alt={site.name}
               className="h-full w-full object-cover object-[center_18%]"
             />
@@ -46,7 +47,7 @@ export function Nav() {
             className="transition-colors hover:text-ink"
           />
           <a
-            href={site.resume}
+            href={publicPath(site.resume)}
             className="rounded-full border border-ink/15 bg-cream px-4 py-1.5 text-ink transition-colors hover:border-forest hover:text-forest"
           >
             Resume
@@ -79,7 +80,7 @@ export function Nav() {
                 {item.label}
               </Link>
             ))}
-            <a href={site.resume}>Resume</a>
+            <a href={publicPath(site.resume)}>Resume</a>
             <LinkedInProfileLink />
             <MediumLink />
             <EmailLink />

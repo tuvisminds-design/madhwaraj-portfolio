@@ -3,6 +3,7 @@ import { EmailLink } from "@/components/EmailLink";
 import { LinkedInProfileLink } from "@/components/LinkedInProfileLink";
 import { MediumLink } from "@/components/MediumLink";
 import { site } from "@/data/site";
+import { publicPath } from "@/lib/public-path";
 
 export function Hero() {
   return (
@@ -10,7 +11,7 @@ export function Hero() {
       <aside className="flex flex-col gap-6 lg:max-w-sm">
         <div className="overflow-hidden rounded-[28px] border border-line bg-cream">
           <Image
-            src={site.photo}
+            src={publicPath(site.photo)}
             alt={`${site.name}, Business Analyst`}
             width={720}
             height={900}
@@ -39,7 +40,7 @@ export function Hero() {
           <MediumLink className="rounded-full border border-ink/15 px-5 py-2.5 text-sm hover:border-forest" />
           <EmailLink className="rounded-full border border-ink/15 px-5 py-2.5 text-sm hover:border-forest" />
           <a
-            href={site.resume}
+            href={publicPath(site.resume)}
             className="rounded-full border border-ink/15 px-5 py-2.5 text-sm hover:border-forest"
           >
             Download resume

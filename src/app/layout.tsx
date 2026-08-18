@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     template: `%s — ${site.name}`,
   },
   description: site.subhead,
-  metadataBase: new URL("https://madhwaraj-kulkarni.vercel.app"),
+  metadataBase: new URL(`${site.url}/`),
   openGraph: {
     title: `${site.name} — ${site.role}`,
     description: site.headline,
     type: "website",
     locale: "en_IN",
-    images: [{ url: "/profile.png", alt: site.name }],
+    images: [{ url: "profile.png", alt: site.name }],
   },
 };
 
