@@ -23,23 +23,23 @@ export const projects: Project[] = [
     slug: "speakeasy",
     title: "SpeakEasy",
     subtitle: "AI public speaking assistant for introverts",
-    category: "Product concept",
+    category: "Self-initiated product",
     year: "2025",
     featured: true,
     problem:
       "Novice speakers and introverts freeze before they ever get to the stage — not because they lack ideas, but because they lack a structured, low-shame way to practice.",
     approach:
-      "Independent discovery: user research, competitive teardown of Yoodli, Speeko, and Orai, then user journeys and low-fidelity wireframes for an AI speaking coach.",
+      "Independent discovery: user research, competitive teardown of Yoodli, Speeko, and Orai, then user journeys, low-fidelity wireframes, and a vibe-coded prototype tested with customers.",
     outcome:
-      "A product concept, not a shipped app. The real learning: emotional attachment to an idea is not product-market fit. That is the moment I chose a PM path over ‘building because I care’.",
+      "A customer-tested prototype, not a scaled product. Feedback from early users and education-sector professionals went back into the concept. The real learning: emotional attachment to an idea is not product-market fit.",
     productLens:
       "I treated this as a PM apprenticeship — problem framing, competitor maps, onboarding flows, and stakeholder demos to education professionals — then killed the ‘must ship this’ instinct when the market signal was weak.",
     tags: ["Discovery", "Competitive analysis", "User journeys", "AI product"],
     artifacts: [
       "Problem space & pain-point notes",
       "Competitive analysis of 6+ speaking tools",
-      "User journeys and low-fi wireframes",
-      "Feedback from education-sector professionals",
+      "User journeys, low-fi wireframes, and a vibe-coded prototype",
+      "Customer tests and feedback from education-sector professionals",
     ],
     sections: [
       {

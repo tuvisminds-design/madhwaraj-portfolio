@@ -5,24 +5,13 @@ export const experience = [
     location: "Pune",
     dates: "Jan 2025 – Present",
     summary:
-      "AI automation consulting, chatbot requirement work, and pre-sales support on the IntelliBuddies platform.",
+      "AI automation support, chatbot requirements, HR workflow design, and pre-sales on the IntelliBuddies platform.",
     bullets: [
       "Contributed to end-to-end planning of an AI chatbot for an Australian Dealer Management System client — requirements, user stories, functional specs, and implementation readiness with stakeholders and engineering.",
-      "Wrote HR chatbot requirements covering intents, entities, sample utterances, and escalation logic across onboarding, payroll, leave, and policy questions.",
-      "Mapped as-is / to-be workflows and authored BRDs for employee onboarding, offboarding, invoice processing, expense reimbursement, and ERP migration.",
       "Reviewed AI/ML automation workflows on IntelliBuddies (IB-X), noting response issues and sharing improvement observations with the team.",
-      "Supported pre-sales by preparing pitch materials, segmenting prospects with Seamless.ai, and assisting outbound campaigns for AI automation solutions.",
-    ],
-  },
-  {
-    company: "The Sparks Foundation",
-    role: "Business Analyst Intern",
-    location: "Pune",
-    dates: "Jun 2024 – Jul 2024",
-    summary: "Exploratory analysis and metric definition on a retail dataset.",
-    bullets: [
-      "Performed exploratory data analysis in Python on a retail store dataset.",
-      "Defined monitorable business metrics to support continuous improvement conversations.",
+      "Supported pre-sales by preparing pitch materials and assisting outbound prospecting campaigns for AI automation solutions.",
+      "Gathered requirements for HR process automation, mapped employee-movement workflows, and designed an Employee Leave Management solution on IB-X (RPA + BPM).",
+      "Evaluated prompt engineering across ChatGPT and other LLM tools, assessing response quality, accuracy, and consistency for possible business and client-facing use.",
     ],
   },
   {
@@ -30,10 +19,10 @@ export const experience = [
     role: "Market Research Analyst Intern",
     location: "Nashik",
     dates: "Jul 2022 – Aug 2022",
-    summary: "Customer segmentation and campaign research for an early-stage team.",
+    summary: "Founder-led marketing campaigns and LinkedIn outreach for an early-stage team.",
     bullets: [
-      "Used Google Trends and customer segmentation to inform targeting and product marketing.",
-      "Supported LinkedIn outreach to founders with personalized messaging.",
+      "Collaborated with the founder to execute marketing campaigns and business-development outreach.",
+      "Ran LinkedIn campaigns with profile-specific messages to founders, converting one prospect from the campaign.",
     ],
   },
   {
@@ -44,9 +33,8 @@ export const experience = [
     summary:
       "Plant operations analytics for a Vitesco Technologies joint venture.",
     bullets: [
-      "Ran root-cause analysis on process inefficiencies in a manufacturing environment.",
-      "Built Power BI dashboards so leadership could see operational performance, trends, and improvement opportunities.",
-      "Supported ETL-style data integration in Power BI to reduce reporting lag.",
+      "Ran root-cause analysis to identify process inefficiencies and operational bottlenecks.",
+      "Built interactive Power BI dashboards so leadership could see operational performance and make data-driven decisions.",
     ],
   },
 ] as const;

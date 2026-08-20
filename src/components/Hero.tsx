@@ -61,7 +61,7 @@ export function Hero() {
             <BriefRow label="Proof" value="IBM AI + Product Management certs" />
           </div>
           <div className="mt-8 grid grid-cols-3 gap-3 border-t border-line pt-6 text-center">
-            <Stat value="1.5 yrs" label="BA at VIT" />
+            <Stat value="1.8 yrs" label="BA at VIT" />
             <Stat value="12+" label="Process studies" />
             <Stat value="2" label="IBM PM certs" />
           </div>

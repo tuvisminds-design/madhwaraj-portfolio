@@ -16,7 +16,7 @@ export const site = {
   subhead:
     "Business Analyst at VIT Infotech, moving into AI Product Management. I map as-is processes, write user stories, and design chatbot and automation journeys that teams can actually build.",
   about: [
-    "I started in analytics and process improvement — dashboards, root-cause work, and market research. At VIT Infotech I now sit closer to the product: gathering requirements for an AI dealer-support chatbot, validating RPA workflows on IntelliBuddies, and writing BRDs and user stories for HR and finance automation.",
+    "I started in analytics and process improvement — dashboards, root-cause work, and market research. At VIT Infotech I now sit closer to the product: gathering requirements for an AI dealer-support chatbot, reviewing RPA workflows on IntelliBuddies, and designing HR automation such as leave management on IB-X.",
     "The through-line is the same skill I want to bring into product management: understand the user, name the friction, and specify a solution that is small enough to ship. I am looking for an early-stage environment where I can own problems end to end — discovery, specs, and iteration — not just documentation.",
   ],
   interests: [
@@ -63,9 +63,9 @@ export const site = {
       items: [
         "Figma",
         "ChatGPT",
+        "IntelliBuddies",
         "MS Office",
-        "Seamless.ai",
-        "UiPath",
+        "Power BI",
       ],
     },
   ],
@@ -120,7 +120,7 @@ export const site = {
       date: "Feb 2022",
     },
     {
-      name: "Microsoft Power BI Data Analyst",
+      name: "Microsoft Power BI Data Analyst Professional Certificate",
       issuer: "Microsoft · Coursera",
       date: "In progress",
     },
