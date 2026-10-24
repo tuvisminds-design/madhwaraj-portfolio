@@ -48,6 +48,7 @@ export function Nav() {
           />
           <a
             href={publicPath(site.resume)}
+            download={site.resumeDownload}
             className="rounded-full border border-forest/40 bg-cream px-4 py-1.5 text-forest transition-colors hover:border-forest hover:bg-forest hover:text-paper"
           >
             Resume
@@ -80,7 +81,9 @@ export function Nav() {
                 {item.label}
               </Link>
             ))}
-            <a href={publicPath(site.resume)}>Resume</a>
+            <a href={publicPath(site.resume)} download={site.resumeDownload}>
+              Resume
+            </a>
             <LinkedInProfileLink />
             <MediumLink />
             <EmailLink />

@@ -49,6 +49,7 @@ export function Hero() {
           <EmailLink className="rounded-full border border-line bg-cream/60 px-5 py-2.5 text-sm transition-colors hover:border-forest hover:text-forest" />
           <a
             href={publicPath(site.resume)}
+            download={site.resumeDownload}
             className="rounded-full border border-forest/40 bg-stamp px-5 py-2.5 text-sm text-forest transition-colors hover:border-forest hover:bg-forest hover:text-paper"
           >
             Download resume

@@ -24,4 +24,4 @@ npm run dev
 - TypeScript
 - Tailwind CSS v4
 
-Resume download lives in `public/Resume/Madhwaraj_Kulkarni_Resume.docx`. Case-study and profile copy lives in `src/data/`.
+Resume download lives in `public/Resume/Madhwaraj_Kulkarni_Resume.pdf`. Case-study and profile copy lives in `src/data/`.
