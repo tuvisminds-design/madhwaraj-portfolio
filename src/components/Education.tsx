@@ -19,17 +19,17 @@ export function Education() {
           ))}
         </div>
         <div className="rounded-[24px] border border-line bg-cream p-6">
-          <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-muted">
+          <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-forest">
             Selected certificates
           </p>
           <ul className="mt-5 divide-y divide-line">
             {site.certifications.map((cert) => (
               <li key={cert.name} className="flex items-start justify-between gap-4 py-3">
                 <div>
-                  <p className="text-sm font-medium">{cert.name}</p>
+                  <p className="text-sm font-medium text-ink">{cert.name}</p>
                   <p className="text-xs text-muted">{cert.issuer}</p>
                 </div>
-                <p className="shrink-0 font-mono text-[11px] text-muted">{cert.date}</p>
+                <p className="shrink-0 font-mono text-[11px] text-forest">{cert.date}</p>
               </li>
             ))}
           </ul>

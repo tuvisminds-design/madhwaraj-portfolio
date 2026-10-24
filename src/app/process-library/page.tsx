@@ -108,7 +108,7 @@ export default function ProcessLibraryPage() {
             href={site.drive}
             target="_blank"
             rel="noreferrer"
-            className="mt-5 inline-flex rounded-full bg-ink px-5 py-2.5 text-sm text-paper hover:bg-forest"
+            className="mt-5 inline-flex rounded-full bg-forest px-5 py-2.5 text-sm font-medium text-paper transition-colors hover:bg-forest-2"
           >
             Open full Drive folder
           </a>

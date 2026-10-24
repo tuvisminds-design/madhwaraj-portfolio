@@ -11,15 +11,15 @@ export function About() {
             <p key={paragraph}>{paragraph}</p>
           ))}
         </div>
-        <div className="rounded-[24px] bg-forest p-7 text-paper sm:p-8">
-          <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-paper/70">
+        <div className="rounded-[24px] border border-forest/30 bg-gradient-to-br from-cream via-stamp to-paper-2 p-7 text-ink shadow-[0_20px_50px_rgba(0,0,0,0.35)] sm:p-8">
+          <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-forest">
             Currently exploring
           </p>
-          <ul className="mt-6 space-y-3">
+          <ul className="mt-6 space-y-3.5">
             {site.interests.map((item) => (
               <li key={item} className="flex items-baseline gap-3">
-                <span className="font-serif text-rust">→</span>
-                <span>{item}</span>
+                <span className="font-serif text-forest">→</span>
+                <span className="text-ink/90">{item}</span>
               </li>
             ))}
           </ul>

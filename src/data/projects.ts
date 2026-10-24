@@ -21,44 +21,45 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: "speakeasy",
-    title: "SpeakEasy",
-    subtitle: "AI public speaking assistant for introverts",
+    title: "SpeakEasy: AI Speech Preparation Tool",
+    subtitle: "Framework-based speaking points (PREP) with delivery tips per section",
     category: "Self-initiated product",
-    year: "2025",
+    year: "May 2024",
     featured: true,
     problem:
-      "Novice speakers and introverts freeze before they ever get to the stage — not because they lack ideas, but because they lack a structured, low-shame way to practice.",
+      "Students and nervous speakers freeze at a blank page when preparing a talk — lacking a structured, low-pressure way to turn a topic into framework-based speaking points.",
     approach:
-      "Independent discovery: user research, competitive teardown of Yoodli, Speeko, and Orai, then user journeys, low-fidelity wireframes, and a vibe-coded prototype tested with customers.",
+      "Designed and prototyped an AI tool that turns a topic into PREP framework-based speaking points (with delivery tips per section); ran a 39-response questionnaire, 8 live demos with mentors and peers, and compared 7 tools (Yoodli, Speeko, Orai, and adjacent products) including a voice-agent test.",
     outcome:
-      "A customer-tested prototype, not a scaled product. Feedback from early users and education-sector professionals went back into the concept. The real learning: emotional attachment to an idea is not product-market fit.",
+      "100% found it easy to use, 85% rated the overall experience 4 or 5, and 36 of 39 would recommend it. Tested my own prediction (30% positive) against the demo result (6 of 8) and documented bias in a sample of people I know — then chose to stop after finding scope creep, a crowded market, and low willingness to pay (median ~₹100/month; many users said ChatGPT already did the job).",
     productLens:
-      "I treated this as a PM apprenticeship — problem framing, competitor maps, onboarding flows, and stakeholder demos to education professionals — then killed the ‘must ship this’ instinct when the market signal was weak.",
-    tags: ["Discovery", "Competitive analysis", "User journeys", "AI product"],
+      "I treated SpeakEasy from idea to user feedback as an end-to-end PM test: hypothesis testing (30% predicted vs 75% demo positive), documenting acquaintance bias, turning tester feedback into product decisions, and making the disciplined call to stop when willingness to pay (~₹100/month median) did not justify scaling.",
+    tags: ["PREP framework", "39-user survey", "8 live demos", "7-tool teardown"],
     artifacts: [
-      "Problem space & pain-point notes",
-      "Competitive analysis of 6+ speaking tools",
-      "User journeys, low-fi wireframes, and a vibe-coded prototype",
-      "Customer tests and feedback from education-sector professionals",
+      "AI prototype generating PREP speaking points & delivery tips",
+      "39-response user questionnaire & 8 live demo transcripts",
+      "Competitive teardown of 7 tools (Yoodli, Speeko, Orai & adjacent products)",
+      "Voice-agent test & willingness-to-pay analysis (median ~₹100/month)",
     ],
     sections: [
       {
-        heading: "The problem I wanted to own",
+        heading: "What I built & tested",
         body: [
-          "Public speaking anxiety is a well-served market on paper. In practice, most tools either grade your delivery after the fact or assume you already have a speech. I wanted a guided first mile: help someone who is stuck at a blank page structure a talk, rehearse it conversationally, and reduce the panic of ‘what do I even say’.",
+          "Designed and prototyped an AI tool that turns a topic into framework-based speaking points (PREP, with delivery tips per section) for students and nervous speakers; ran a 39-response questionnaire and 8 live demos with mentors and peers.",
+          "Compared 7 tools (Yoodli, Speeko, Orai and adjacent products) and turned tester feedback into product decisions, including a voice-agent test.",
         ],
       },
       {
-        heading: "What I actually did",
+        heading: "Early results & bias calibration",
         body: [
-          "I mapped pain points, motivations, and unmet needs through independent research. I tore down Yoodli, Speeko, Orai and others on positioning, feature depth, and who they really serve. Then I designed onboarding and speech-structuring flows and walked early concepts past people in education.",
-          "The honest outcome: I became attached to the idea. The market did not. That gap — building the right product versus building the right product for the current market — is what pushed me toward product analysis and product management rather than founder-by-emotion.",
+          "Early results: 100% found it easy to use, 85% rated the overall experience 4 or 5, and 36 of 39 would recommend it.",
+          "Tested my own prediction (30% positive) against the demo result (6 of 8) and documented the bias in a sample of people I know.",
         ],
       },
       {
-        heading: "How I would run this as a PM",
+        heading: "Why I chose to stop",
         body: [
-          "I would start with a narrower ICP (campus placement talks, not ‘everyone who is shy’), run five problem interviews before another wireframe, and test a conversational structured-outline prototype instead of a full coaching product. Scope would be one job-to-be-done: get a first draft out loud in ten minutes.",
+          "Chose to stop after finding scope creep, a crowded market and low willingness to pay (median about ₹100 a month; many users said ChatGPT already did the job).",
         ],
       },
     ],
@@ -302,14 +303,14 @@ export const projects: Project[] = [
   {
     slug: "traf-fix",
     title: "TRAF-FIX",
-    subtitle: "Real-time congestion alerts for Pune commuters",
-    category: "Academic product",
+    subtitle: "Real-time traffic alert app",
+    category: "Academic project",
     year: "2023",
     featured: false,
     problem:
       "Commuters on corridors like Senapati Bapat Road learn about jams too late to change route.",
     approach:
-      "Collaborative academic project: UI mock-ups, user workflows, feature definition for congestion tracking and alerts, plus a light feasibility pass.",
+      "Created UI mock-ups, documented user workflows and helped define features for congestion tracking and alerts.",
     outcome:
       "A concept app with documented workflows and mock-ups — planning and design, not a production system.",
     productLens:
@@ -320,7 +321,33 @@ export const projects: Project[] = [
       {
         heading: "Scope of the academic build",
         body: [
-          "We proposed a traffic alert system for congestion on Senapati Bapat Road in Pune. I contributed mock-ups, user workflows, and feature definition for tracking and notifications as part of a team project.",
+          "TRAF-FIX, real-time traffic alert app: created UI mock-ups, documented user workflows and helped define features for congestion tracking and alerts.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "business-insights-dashboard",
+    title: "Business Insights Dashboard",
+    subtitle: "Interactive Power BI dashboard on real-world datasets",
+    category: "Academic project",
+    year: "2023",
+    featured: false,
+    problem:
+      "Raw business datasets hide multi-variable trends unless structured around clear decision-oriented KPIs.",
+    approach:
+      "Built an interactive Power BI dashboard on real-world datasets to communicate trends.",
+    outcome:
+      "Interactive drill-down views enabling stakeholders to explore performance metrics and spot patterns quickly.",
+    productLens:
+      "Data visualisation works like a product interface: the hierarchy of metrics determines which questions get asked first.",
+    tags: ["Power BI", "Data visualisation", "Dashboards", "Analytics"],
+    artifacts: ["Interactive Power BI dashboard", "Trend analysis views"],
+    sections: [
+      {
+        heading: "What I built",
+        body: [
+          "Business Insights Dashboard: built an interactive Power BI dashboard on real-world datasets to communicate trends.",
         ],
       },
     ],
@@ -516,17 +543,17 @@ export const projects: Project[] = [
   },
   {
     slug: "waste-management",
-    title: "Waste Management in Heavy Industry",
-    subtitle: "Workflow concept for compliant disposal",
-    category: "Academic product",
+    title: "Waste Management Optimization",
+    subtitle: "Workflow improvements for heavy machinery manufacturing",
+    category: "Academic project",
     year: "2024",
     featured: false,
     problem:
       "Heavy-machinery manufacturers need a clearer path to follow disposal rules — the gap is coordination, not a lack of regulation.",
     approach:
-      "Analysed operational inefficiencies, then turned findings into Figma wireframes and a solution concept connecting manufacturers with the compliance process.",
+      "Analysed inefficiencies in a heavy machinery manufacturing setting and presented Figma wireframes of workflow improvements to stakeholders.",
     outcome:
-      "A presentation and wireframes for a fictional coordination app — analysis plus product sketch, shared with project stakeholders.",
+      "A presentation and wireframes for workflow optimization — analysis plus product sketch, shared with project stakeholders.",
     productLens:
       "I used wireframes the way I use them as a BA: a picture that collapses a 12-page requirements debate.",
     tags: ["Figma", "Compliance", "Workflow", "Manufacturing"],
@@ -535,7 +562,7 @@ export const projects: Project[] = [
       {
         heading: "From analysis to a product sketch",
         body: [
-          "This academic project asked how chemical and heavy-industry players stay inside disposal rules. I analysed process gaps and visualised a workflow product so stakeholders could react to a screen, not a paragraph.",
+          "Waste Management Optimization: analysed inefficiencies in a heavy machinery manufacturing setting and presented Figma wireframes of workflow improvements to stakeholders.",
         ],
       },
     ],
@@ -547,7 +574,12 @@ export function getProject(slug: string) {
 }
 
 export const featuredProjects = projects.filter((project) => project.featured);
-export const moreProjects = projects.filter((project) => !project.featured);
+export const academicProjects = projects.filter(
+  (project) => project.category === "Academic project"
+);
+export const moreProjects = projects.filter(
+  (project) => !project.featured && project.category !== "Academic project"
+);
 export const driveProjects = projects.filter((project) => Boolean(project.drive));
 
 export const processLibraryGroups = [

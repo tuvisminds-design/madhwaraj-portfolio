@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --paper: #080807;
-  --paper-2: #10100e;
-  --ink: #f3eee4;
-  --muted: #a39b91;
-  --line: #2c2925;
-  --forest: #8fbfa4;
-  --forest-2: #a8d4bc;
-  --rust: #e07a48;
-  --cream: #121110;
-  --stamp: #14201a;
+  --paper: #070d19;
+  --paper-2: #0c1526;
+  --ink: #f8fafc;
+  --muted: #94a3b8;
+  --line: #1e2d4a;
+  --forest: #d4af37;
+  --forest-2: #e6c65a;
+  --rust: #f59e0b;
+  --cream: #0f1a2e;
+  --stamp: #15233d;
 }
 
 @theme inline {
@@ -35,13 +35,16 @@ html {
 }
 
 body {
-  background: var(--paper);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -15%, rgba(212, 175, 55, 0.12), transparent),
+    radial-gradient(ellipse 60% 40% at 85% 20%, rgba(30, 58, 138, 0.22), transparent);
   color: var(--ink);
   font-family: var(--font-sans), system-ui, sans-serif;
 }
 
 ::selection {
-  background: #2a4a3c;
+  background: rgba(212, 175, 55, 0.28);
   color: var(--ink);
 }
 
@@ -55,12 +58,12 @@ body {
   position: fixed;
   inset: 0;
   z-index: 50;
-  opacity: 0.09;
+  opacity: 0.06;
   mix-blend-mode: overlay;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 .rule {
   height: 1px;
-  background: var(--line);
+  background: linear-gradient(90deg, transparent, var(--line) 15%, rgba(212, 175, 55, 0.35) 50%, var(--line) 85%, transparent);
 }

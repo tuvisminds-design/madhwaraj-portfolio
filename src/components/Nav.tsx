@@ -15,14 +15,14 @@ export function Nav() {
     <header className="sticky top-0 z-40 border-b border-line/80 bg-paper/85 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
         <Link href="/" className="flex items-center gap-3">
-          <span className="relative h-10 w-10 shrink-0 overflow-hidden rounded-full bg-cream ring-1 ring-line">
+          <span className="relative h-10 w-10 shrink-0 overflow-hidden rounded-full bg-cream ring-1 ring-forest/40">
             <img
               src={publicPath(site.photo)}
               alt={site.name}
               className="h-full w-full object-cover object-[center_18%]"
             />
           </span>
-          <span className="hidden text-sm tracking-tight sm:block">
+          <span className="hidden text-sm font-medium tracking-tight text-ink sm:block">
             {site.name}
           </span>
         </Link>
@@ -32,23 +32,23 @@ export function Nav() {
             <Link
               key={item.href}
               href={item.href}
-              className="transition-colors hover:text-ink"
+              className="transition-colors hover:text-forest"
             >
               {item.label}
             </Link>
           ))}
           <LinkedInProfileLink
             label="LinkedIn"
-            className="transition-colors hover:text-ink"
+            className="transition-colors hover:text-forest"
           />
-          <MediumLink className="transition-colors hover:text-ink" />
+          <MediumLink className="transition-colors hover:text-forest" />
           <EmailLink
             label="Email"
-            className="transition-colors hover:text-ink"
+            className="transition-colors hover:text-forest"
           />
           <a
             href={publicPath(site.resume)}
-            className="rounded-full border border-ink/15 bg-cream px-4 py-1.5 text-ink transition-colors hover:border-forest hover:text-forest"
+            className="rounded-full border border-forest/40 bg-cream px-4 py-1.5 text-forest transition-colors hover:border-forest hover:bg-forest hover:text-paper"
           >
             Resume
           </a>
